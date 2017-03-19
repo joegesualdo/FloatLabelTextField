@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FloatLabelTextField'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Fancy TextFields with floating labels and error messages'
  
   s.description      = <<-DESC

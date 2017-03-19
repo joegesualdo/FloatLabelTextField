@@ -12,7 +12,6 @@
 		453616C11E722C5300D38025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453616C01E722C5300D38025 /* Assets.xcassets */; };
 		453616C41E722C5300D38025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453616C21E722C5300D38025 /* LaunchScreen.storyboard */; };
 		453616CD1E7252FE00D38025 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453616CC1E7252FE00D38025 /* FloatLabelTextField.swift */; };
-		454EE7181E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EE7171E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift */; };
 		4550AD581E7790EA009A67EF /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD4C1E7790EA009A67EF /* Roboto-Black.ttf */; };
 		4550AD591E7790EA009A67EF /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD4D1E7790EA009A67EF /* Roboto-BlackItalic.ttf */; };
 		4550AD5A1E7790EA009A67EF /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD4E1E7790EA009A67EF /* Roboto-Bold.ttf */; };
@@ -35,7 +34,6 @@
 		453616C31E722C5300D38025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		453616C51E722C5300D38025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		453616CC1E7252FE00D38025 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
-		454EE7171E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextFieldDelegate.swift; sourceTree = "<group>"; };
 		4550AD4C1E7790EA009A67EF /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		4550AD4D1E7790EA009A67EF /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		4550AD4E1E7790EA009A67EF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 		453616B81E722C5300D38025 /* FloatLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				454EE7161E7D84DB0029B344 /* Delegates */,
 				4550AD4B1E7790C9009A67EF /* Fonts */,
 				453616CE1E7254BF00D38025 /* Models */,
 				453616CB1E7252DC00D38025 /* Views */,
@@ -106,14 +103,6 @@
 			children = (
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		454EE7161E7D84DB0029B344 /* Delegates */ = {
-			isa = PBXGroup;
-			children = (
-				454EE7171E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift */,
-			);
-			name = Delegates;
 			sourceTree = "<group>";
 		};
 		4550AD4B1E7790C9009A67EF /* Fonts */ = {
@@ -219,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				453616BC1E722C5300D38025 /* ViewController.swift in Sources */,
-				454EE7181E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift in Sources */,
 				453616BA1E722C5300D38025 /* AppDelegate.swift in Sources */,
 				453616CD1E7252FE00D38025 /* FloatLabelTextField.swift in Sources */,
 			);

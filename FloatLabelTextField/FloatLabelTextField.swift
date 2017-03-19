@@ -8,6 +8,9 @@
 
 import UIKit
 
+protocol FloatLabelTextFieldDelegate: UITextFieldDelegate {
+}
+
 public class FloatLabelTextField: UIView , UITextFieldDelegate {
   var delegate: FloatLabelTextFieldDelegate?
   private var customInputContainer: UIView
