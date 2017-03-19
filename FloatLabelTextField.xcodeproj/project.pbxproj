@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453616BA1E722C5300D38025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453616B91E722C5300D38025 /* AppDelegate.swift */; };
+		453616BC1E722C5300D38025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453616BB1E722C5300D38025 /* ViewController.swift */; };
+		453616C11E722C5300D38025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453616C01E722C5300D38025 /* Assets.xcassets */; };
+		453616C41E722C5300D38025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453616C21E722C5300D38025 /* LaunchScreen.storyboard */; };
+		453616CD1E7252FE00D38025 /* FloatLabelTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453616CC1E7252FE00D38025 /* FloatLabelTextFieldView.swift */; };
+		454EE7181E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EE7171E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift */; };
+		4550AD581E7790EA009A67EF /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD4C1E7790EA009A67EF /* Roboto-Black.ttf */; };
+		4550AD591E7790EA009A67EF /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD4D1E7790EA009A67EF /* Roboto-BlackItalic.ttf */; };
+		4550AD5A1E7790EA009A67EF /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD4E1E7790EA009A67EF /* Roboto-Bold.ttf */; };
+		4550AD5B1E7790EA009A67EF /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD4F1E7790EA009A67EF /* Roboto-BoldItalic.ttf */; };
+		4550AD5C1E7790EA009A67EF /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD501E7790EA009A67EF /* Roboto-Italic.ttf */; };
+		4550AD5D1E7790EA009A67EF /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD511E7790EA009A67EF /* Roboto-Light.ttf */; };
+		4550AD5E1E7790EA009A67EF /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD521E7790EA009A67EF /* Roboto-LightItalic.ttf */; };
+		4550AD5F1E7790EA009A67EF /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD531E7790EA009A67EF /* Roboto-Medium.ttf */; };
+		4550AD601E7790EA009A67EF /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD541E7790EA009A67EF /* Roboto-MediumItalic.ttf */; };
+		4550AD611E7790EA009A67EF /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD551E7790EA009A67EF /* Roboto-Regular.ttf */; };
+		4550AD621E7790EA009A67EF /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD561E7790EA009A67EF /* Roboto-Thin.ttf */; };
+		4550AD631E7790EA009A67EF /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4550AD571E7790EA009A67EF /* Roboto-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		453616B61E722C5300D38025 /* FloatLabelTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatLabelTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		453616B91E722C5300D38025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		453616BB1E722C5300D38025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		453616C01E722C5300D38025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		453616C31E722C5300D38025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		453616C51E722C5300D38025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453616CC1E7252FE00D38025 /* FloatLabelTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextFieldView.swift; sourceTree = "<group>"; };
+		454EE7171E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextFieldDelegate.swift; sourceTree = "<group>"; };
+		4550AD4C1E7790EA009A67EF /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		4550AD4D1E7790EA009A67EF /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4550AD4E1E7790EA009A67EF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		4550AD4F1E7790EA009A67EF /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4550AD501E7790EA009A67EF /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		4550AD511E7790EA009A67EF /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		4550AD521E7790EA009A67EF /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		4550AD531E7790EA009A67EF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		4550AD541E7790EA009A67EF /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4550AD551E7790EA009A67EF /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4550AD561E7790EA009A67EF /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4550AD571E7790EA009A67EF /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453616B31E722C5200D38025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453616AD1E722C5200D38025 = {
+			isa = PBXGroup;
+			children = (
+				453616B81E722C5300D38025 /* FloatLabelTextField */,
+				453616B71E722C5300D38025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		453616B71E722C5300D38025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453616B61E722C5300D38025 /* FloatLabelTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453616B81E722C5300D38025 /* FloatLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				454EE7161E7D84DB0029B344 /* Delegates */,
+				4550AD4B1E7790C9009A67EF /* Fonts */,
+				453616CE1E7254BF00D38025 /* Models */,
+				453616CB1E7252DC00D38025 /* Views */,
+				453616B91E722C5300D38025 /* AppDelegate.swift */,
+				453616BB1E722C5300D38025 /* ViewController.swift */,
+				453616C01E722C5300D38025 /* Assets.xcassets */,
+				453616C21E722C5300D38025 /* LaunchScreen.storyboard */,
+				453616C51E722C5300D38025 /* Info.plist */,
+			);
+			path = FloatLabelTextField;
+			sourceTree = "<group>";
+		};
+		453616CB1E7252DC00D38025 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				453616CC1E7252FE00D38025 /* FloatLabelTextFieldView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		453616CE1E7254BF00D38025 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		454EE7161E7D84DB0029B344 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				454EE7171E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		4550AD4B1E7790C9009A67EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4550AD4C1E7790EA009A67EF /* Roboto-Black.ttf */,
+				4550AD4D1E7790EA009A67EF /* Roboto-BlackItalic.ttf */,
+				4550AD4E1E7790EA009A67EF /* Roboto-Bold.ttf */,
+				4550AD4F1E7790EA009A67EF /* Roboto-BoldItalic.ttf */,
+				4550AD501E7790EA009A67EF /* Roboto-Italic.ttf */,
+				4550AD511E7790EA009A67EF /* Roboto-Light.ttf */,
+				4550AD521E7790EA009A67EF /* Roboto-LightItalic.ttf */,
+				4550AD531E7790EA009A67EF /* Roboto-Medium.ttf */,
+				4550AD541E7790EA009A67EF /* Roboto-MediumItalic.ttf */,
+				4550AD551E7790EA009A67EF /* Roboto-Regular.ttf */,
+				4550AD561E7790EA009A67EF /* Roboto-Thin.ttf */,
+				4550AD571E7790EA009A67EF /* Roboto-ThinItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		453616B51E722C5200D38025 /* FloatLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453616C81E722C5300D38025 /* Build configuration list for PBXNativeTarget "FloatLabelTextField" */;
+			buildPhases = (
+				453616B21E722C5200D38025 /* Sources */,
+				453616B31E722C5200D38025 /* Frameworks */,
+				453616B41E722C5200D38025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatLabelTextField;
+			productName = JPGInput;
+			productReference = 453616B61E722C5300D38025 /* FloatLabelTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453616AE1E722C5200D38025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joe Gesualdo";
+				TargetAttributes = {
+					453616B51E722C5200D38025 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 453616B11E722C5200D38025 /* Build configuration list for PBXProject "FloatLabelTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 453616AD1E722C5200D38025;
+			productRefGroup = 453616B71E722C5300D38025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453616B51E722C5200D38025 /* FloatLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453616B41E722C5200D38025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4550AD5F1E7790EA009A67EF /* Roboto-Medium.ttf in Resources */,
+				4550AD5B1E7790EA009A67EF /* Roboto-BoldItalic.ttf in Resources */,
+				453616C41E722C5300D38025 /* LaunchScreen.storyboard in Resources */,
+				453616C11E722C5300D38025 /* Assets.xcassets in Resources */,
+				4550AD5A1E7790EA009A67EF /* Roboto-Bold.ttf in Resources */,
+				4550AD5C1E7790EA009A67EF /* Roboto-Italic.ttf in Resources */,
+				4550AD611E7790EA009A67EF /* Roboto-Regular.ttf in Resources */,
+				4550AD5E1E7790EA009A67EF /* Roboto-LightItalic.ttf in Resources */,
+				4550AD581E7790EA009A67EF /* Roboto-Black.ttf in Resources */,
+				4550AD5D1E7790EA009A67EF /* Roboto-Light.ttf in Resources */,
+				4550AD631E7790EA009A67EF /* Roboto-ThinItalic.ttf in Resources */,
+				4550AD601E7790EA009A67EF /* Roboto-MediumItalic.ttf in Resources */,
+				4550AD621E7790EA009A67EF /* Roboto-Thin.ttf in Resources */,
+				4550AD591E7790EA009A67EF /* Roboto-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453616B21E722C5200D38025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453616BC1E722C5300D38025 /* ViewController.swift in Sources */,
+				454EE7181E7D84F80029B344 /* FloatLabelTextFieldDelegate.swift in Sources */,
+				453616BA1E722C5300D38025 /* AppDelegate.swift in Sources */,
+				453616CD1E7252FE00D38025 /* FloatLabelTextFieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		453616C21E722C5300D38025 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453616C31E722C5300D38025 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		453616C61E722C5300D38025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		453616C71E722C5300D38025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453616C91E722C5300D38025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatLabelTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joegesualdo.FloatLabelTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		453616CA1E722C5300D38025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatLabelTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joegesualdo.FloatLabelTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453616B11E722C5200D38025 /* Build configuration list for PBXProject "FloatLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453616C61E722C5300D38025 /* Debug */,
+				453616C71E722C5300D38025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453616C81E722C5300D38025 /* Build configuration list for PBXNativeTarget "FloatLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453616C91E722C5300D38025 /* Debug */,
+				453616CA1E722C5300D38025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453616AE1E722C5200D38025 /* Project object */;
+}
