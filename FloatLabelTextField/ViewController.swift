@@ -12,9 +12,9 @@ class ViewController: UIViewController, FloatLabelTextFieldDelegate {
 
   let formContainer = UIView(frame: CGRect())
   var customInputContainer = UIView(frame: CGRect())
-  let jginput = FloatLabelTextField(label: "First name", placeholder: "First name")
+  let jginput = FloatLabelTextField(label: "Username", placeholder: "Username")
   var customInputContainer2 = UIView(frame: CGRect())
-  let jginput2 = FloatLabelTextField(label: "Last name", placeholder: "Last name")
+  let jginput2 = FloatLabelTextField(label: "Email", placeholder: "Email")
   
   override func viewDidLoad() {
     jginput.delegate = self
@@ -68,24 +68,23 @@ class ViewController: UIViewController, FloatLabelTextFieldDelegate {
   public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
     var isValid: Bool = true;
     var errorMessage: String = ""
-    let lengthOfNewString: Int = string == "" ? (textField.text?.characters.count)! - 1 : (textField.text?.characters.count)! + 1
     
     switch textField.tag {
     case jginput.tag:
-      (jginput.text as NSString).replacingCharacters(in: range, with: string)
-      isValid = lengthOfNewString <= 3
+      var textAfterUpdate = (jginput.text as NSString).replacingCharacters(in: range, with: string)
+      isValid = textAfterUpdate.characters.count <= 7
       if (isValid) {
         jginput.isValid = true
         jginput.errorText = ""
       } else {
         jginput.isValid = false
-        errorMessage = "Email is not valid"
+        errorMessage = "Username is too long"
         jginput.errorText = errorMessage;
       }
       return true
     case jginput2.tag:
-      (jginput2.text as NSString).replacingCharacters(in: range, with: string)
-      isValid = lengthOfNewString <= 3
+      let textAfterUpdate = (jginput2.text as NSString).replacingCharacters(in: range, with: string)
+      isValid = isValidEmail(testStr: textAfterUpdate)
       if (isValid) {
         jginput2.isValid = true
         jginput2.errorText = ""
@@ -122,6 +121,13 @@ class ViewController: UIViewController, FloatLabelTextFieldDelegate {
       jginput2.labelColor = UIColor.gray
     default: break
     }
+  }
+  func isValidEmail(testStr:String) -> Bool {
+    // print("validate calendar: \(testStr)")
+    let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+    
+    let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+    return emailTest.evaluate(with: testStr)
   }
 }
 
