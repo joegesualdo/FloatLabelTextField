@@ -11,7 +11,7 @@ pod 'FloatLabelTextField', '~> 1.0.0'
 #### Single Input
 ![FloatLabelTextField-demo](https://github.com/joegesualdo/FloatLabelTextField/raw/master/FloatLabelTextField_demo.gif)
 #### Combine Multiple Inputs
-![FloatLabelTextField-form-demo](https://github.com/joegesualdo/FloatLabelTextField/raw/master/FloatLabelTextField-form_demo.gif)
+![FloatLabelTextField-form-demo](https://github.com/joegesualdo/FloatLabelTextField/raw/master/FloatLabelTextField_form_demo.gif)
 
 ## Usage
 ```Swift
