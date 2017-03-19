@@ -1,22 +1,22 @@
-## JPGInput
-> A Fancy iOS input
+## FloatLabelTextField
+> Fancy TextFields with floating labels and error messages.
 
 ## Install
 ```ruby
 # Podfile
-pod 'JPGInput', '~> 0.1.5'
+pod 'FloatLabelTextField', '~> 1.0.0'
 ```
 
 ## Example
 #### Single Input
-![JPGInput-ios-demo](https://github.com/joegesualdo/JPGInput-ios/raw/master/JPGInput_demo.gif)
+![FloatLabelTextField-demo](https://github.com/joegesualdo/FloatLabelTextField/raw/master/FloatLabelTextField_demo.gif)
 #### Combine Multiple Inputs
-![JPGInput-ios-form-demo](https://github.com/joegesualdo/JPGInput-ios/raw/master/JPGInput_form_demo.gif)
+![FloatLabelTextField-form-demo](https://github.com/joegesualdo/FloatLabelTextField/raw/master/FloatLabelTextField-form_demo.gif)
 
 ## Usage
 ```Swift
 ...
-let firstNameInput = JPGInput(label: "First name", placeholder: "First name")
+let firstNameInput = FloatLabelTextField(label: "First name", placeholder: "First name")
 view.addSubview(firstNameInput)
 ...
 ```
