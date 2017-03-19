@@ -4,7 +4,7 @@
 ## Install
 ```ruby
 # Podfile
-pod 'FloatLabelTextField', '~> 1.0.0'
+pod 'FloatLabelTextField', '~> 1.0.2'
 ```
 
 ## Example
